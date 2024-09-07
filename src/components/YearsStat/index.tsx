@@ -17,6 +17,10 @@ const YearsStat = ({ year, onClick }: { year: string, onClick: (_year: string) =
         <p className="leading-relaxed">
           {INFO_MESSAGE(years.length, year)}
           <br />
+          <br />
+          "明明这么痛苦，这么难过，为什么就是不能放弃跑步？因为全身细胞都在蠢蠢欲动，想要感受强风迎面吹拂的滋味。"
+          <br />
+          <p style={quoteStyle}>&ndash;&ndash;《强风吹拂》</p>
         </p>
       </section>
       <hr color="red" />
@@ -31,6 +35,11 @@ const YearsStat = ({ year, onClick }: { year: string, onClick: (_year: string) =
         )}
     </div>
   );
+};
+
+const quoteStyle = {
+    fontWeight:"bold",
+    textAlign: "right"
 };
 
 export default YearsStat;
