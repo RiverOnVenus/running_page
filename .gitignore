@@ -20,3 +20,9 @@ _site/
 
 config.yaml
 .venv/
+
+src/static/activities.json
+run_page/data.db
+assets/grid.svg
+assets/year*
+assets/github*
