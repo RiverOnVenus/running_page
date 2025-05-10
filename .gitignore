@@ -23,6 +23,9 @@ config.yaml
 
 .pdm-python
 
+route.png
+route.svg
+
 src/static/activities.json
 run_page/data.db
 assets/grid.svg
