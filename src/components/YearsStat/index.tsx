@@ -29,7 +29,7 @@ const YearsStat = ({
           <p style={quoteStyle}>&ndash;&ndash;《强风吹拂》</p>
         </p>
       </section>
-      <hr color="red" />
+      <hr />
       {yearsArrayUpdate.map((year) => (
         <YearStat key={year} year={year} onClick={onClick} />
       ))}

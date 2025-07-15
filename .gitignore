@@ -26,6 +26,8 @@ config.yaml
 route.png
 route.svg
 
+.env
+
 src/static/activities.json
 run_page/data.db
 assets/grid.svg
