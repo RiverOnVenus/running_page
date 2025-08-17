@@ -30,7 +30,7 @@ const data: ISiteMetadataResult = {
     },
     {
       name: 'About',
-      url: 'https://zhui.dev/about',
+      url: 'https://zhui.dev/about.html',
     },
   ],
 };
