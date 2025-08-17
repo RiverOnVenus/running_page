@@ -16,7 +16,7 @@ const getBasePath = () => {
 
 const data: ISiteMetadataResult = {
   siteTitle: 'Running Page',
-  siteUrl: 'https://running.zhui.dev',
+  siteUrl: 'https://run.zhui.dev',
   logo: 'https://image.zhui.dev/file/1738643020712_haiji_602.jpg',
   description: 'Running Page',
   navLinks: [
